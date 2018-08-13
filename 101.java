@@ -6,7 +6,7 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner s=new Scanner(System.in);
-		String str=s.nextLine();
+		String str=s.next();
 		int n=s.nextInt();
 		char ch[]=new char[str.length()];int j=0;
 		for(int i=str.length()-1;n!=0;i--)
