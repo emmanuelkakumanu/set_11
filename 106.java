@@ -14,9 +14,9 @@ class Ideone
 		for(int i=0;i<n;i++)
 		a[i]=s.nextInt();
 		
-		int b[]=new int[k];
+		int b[]=new int[n];
 		int j=0;
-		for(int i=0;i<k;i++)
+		for(int i=0;i<n;i++)
 		{
 			if(a[i]%2==1)
 			b[j++]=a[i];
