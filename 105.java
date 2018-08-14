@@ -8,7 +8,7 @@ class Ideone
 		Scanner s=new Scanner(System.in);
 		int a=s.nextInt();
 		int b=s.nextInt();
-		int c=a;
+		/*int c=a;
 		int d[]=new int[10];
 		int i=0,cnt=0;
 		if(a==0 || b==0)
@@ -29,6 +29,7 @@ class Ideone
 			c=(c*10)+d[j];
 		}
 		System.out.print(c);
-		}
+		}*/
+		System.out.print(a+""+b);
 	}
 }
